@@ -1,7 +1,7 @@
 let hit;
 let i = 1;
 let j = 55;
-let timer=5;
+let timer=60;
 let score=0;
 function start(){
     document.querySelector(".bottom").innerHTML = `<button class="button2">Start</button>`;

@@ -15,7 +15,7 @@ function restart(){
     document.querySelector(".button").addEventListener("click",function(){
         document.querySelector(".totalScore").innerHTML = "Score :";
         document.querySelector(".score").innerHTML = "0";
-        timer=6;
+        timer=60;
         fillRandomValue();
         runTimer();
         incScore();
